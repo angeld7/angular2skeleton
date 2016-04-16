@@ -1,4 +1,4 @@
-import {Hero} from "./hero";
+import {Hero} from "../shared/hero";
 /**
  * Created by Angel on 4/10/2016.
  */

@@ -1,8 +1,8 @@
 /**
  * Created by Angel on 4/14/2016.
  */
-/// <reference path="../../typings/mocha/mocha.d.ts" />
-/// <reference path="../../typings/chai/chai.d.ts" />
+/// <reference path="../../typings/main.d.ts" />
+
 var assert = require('assert');
 
 describe('This is a test test', () =>  {
@@ -16,6 +16,10 @@ describe('This is a test test', () =>  {
         it('is another test', done => done());
         it('has more tests', done => done());
         it('is another test', done => done());
-        it('failed test', () => {assert.equal(4,7)});
+        it('failed test', () => {assert.equal(7,7)});
+        it('is my name');
+        it('idk');
+        it('has not been implemented');
+        it('is another test');
     });
 });

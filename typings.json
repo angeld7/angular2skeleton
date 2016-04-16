@@ -1,5 +1,10 @@
 {
+  "name": "angular2-boilerplate",
+  "version": false,
   "ambientDependencies": {
-    "es6-shim": "github:DefinitelyTyped/DefinitelyTyped/es6-shim/es6-shim.d.ts#6697d6f7dadbf5773cb40ecda35a76027e0783b2"
+    "assertion-error": "github:DefinitelyTyped/DefinitelyTyped/assertion-error/assertion-error.d.ts#94d8775a947f626269b06ccadd6f5e61839389d0",
+    "chai": "github:DefinitelyTyped/DefinitelyTyped/chai/chai.d.ts#94d8775a947f626269b06ccadd6f5e61839389d0",
+    "mocha": "github:DefinitelyTyped/DefinitelyTyped/mocha/mocha.d.ts#94d8775a947f626269b06ccadd6f5e61839389d0",
+    "require": "registry:dt/require#2.1.20+20160316155526"
   }
 }

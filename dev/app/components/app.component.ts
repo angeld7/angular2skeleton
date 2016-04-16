@@ -1,5 +1,5 @@
 import {Component}       from 'angular2/core';
-import {HeroService}     from './hero.service';
+import {HeroService}     from '../services/hero.service';
 import {HeroesComponent} from './heroes.component';
 import {ROUTER_PROVIDERS, RouteConfig, ROUTER_DIRECTIVES} from "angular2/router";
 import {DashboardComponent} from "./dashboard.component";
@@ -15,7 +15,7 @@ import {HeroDetailComponent} from "./hero-detail.component";
         </nav>
         <router-outlet></router-outlet>
     `,
-    styleUrls: ['src/css/app.css'],
+    styleUrls: ['../../assets/css/app.css'],
     directives: [ROUTER_DIRECTIVES],
     providers: [
         ROUTER_PROVIDERS,

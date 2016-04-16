@@ -2,14 +2,14 @@
  * Created by Angel on 4/10/2016.
  */
 import {Component, Input, OnInit} from 'angular2/core';
-import {Hero} from './hero';
-import {HeroService} from "./hero.service";
 import {RouteParams} from "angular2/router";
+import {Hero} from "../shared/hero";
+import {HeroService} from "../services/hero.service";
 
 @Component({
     selector: 'my-hero-detail',
-    templateUrl: 'templates/hero-detail.template.html',
-    styleUrls: ['src/css/hero-detail.css']
+    templateUrl: '../../templates/hero-detail.template.html',
+    styleUrls: ['../../assets/css/hero-detail.css']
 })
 export class HeroDetailComponent implements OnInit {
     @Input()

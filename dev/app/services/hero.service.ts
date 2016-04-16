@@ -2,8 +2,8 @@
  * Created by Angel on 4/10/2016.
  */
 import {Injectable} from 'angular2/core';
-import {HEROES} from "./mock-heroes";
-import {Hero} from "./hero";
+import {HEROES} from "../mock/mock-heroes";
+import {Hero} from "../shared/hero";
 
 
 @Injectable()
