@@ -25,7 +25,7 @@ export class HeroDetailComponent implements OnInit {
             .then(hero => this.hero = hero);
     }
 
-    goBack() {
+    static goBack() {
         window.history.back();
     }
 }

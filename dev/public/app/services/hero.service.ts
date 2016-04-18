@@ -8,7 +8,7 @@ import {Hero} from "../shared/hero";
 
 @Injectable()
 export class HeroService {
-    getHeroes() {
+    static getHeroes() {
         return Promise.resolve(HEROES);
     }
 
